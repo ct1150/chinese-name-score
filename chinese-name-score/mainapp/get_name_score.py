@@ -17,8 +17,8 @@ import threading
 import time 
 import threadpool
 
-from main import user_config
-from main import sys_config
+import user_config
+import sys_config
 
 reload(sys) 
 sys.setdefaultencoding("GB18030")
